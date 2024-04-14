@@ -1,0 +1,150 @@
+body{
+	background-image: url(letter\ english.jpg);
+	margin: 0;
+	
+}
+.header {
+	overflow: hidden;
+	background:rgba(186, 209, 253,0.8);
+	padding: 10px 10px;
+  }
+  
+.header a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px; 
+	line-height: 25px;
+	border-radius: 4px;
+  }
+  .header a.logo {
+	font-size: 30px;
+	font-weight: bold;
+	color: #010d43;
+	text-shadow: 2px 2px 6px #06196e;
+  }
+  
+.header a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  .header a.active {
+	background-color: dodgerblue;
+	color: white;
+  }
+  .header-right {
+	float: right;
+  }
+ 
+  .p1{
+	font-size: 25px;
+	font-weight: 600;
+	color: #050505dc;
+	text-transform: capitalize;
+	padding-left: 20px;
+	margin-top: 40px;
+  }
+  .p2{
+	padding-left: 19px;
+	font-size: 20px;
+	width: 80%;
+  }
+  
+  .ex1{
+	font-size: 20px;
+	font-weight: 600;
+	padding-left: 30px;
+  }
+.img-capital-letter{
+	opacity: 0.6;
+	padding-left: 35px;
+}
+h3{
+	padding-left: 30px;
+	font-size: 23px;
+}
+.content{
+    padding-left: 30px;
+	padding-right: 60px;
+	font-size: 20px;
+	font-weight: 500;
+	
+}
+.ul{
+	padding-left: 80px;
+	font-size: 17px;
+}
+
+
+/* }
+.parent {
+	display: flex;
+	gap: 10px;
+	font-size: 20px;
+} */
+/* }
+.nav{
+	justify-content: center;
+}
+.dropbtn {
+	background-color: #06196e;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+  }
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown-content a:hover {
+	background-color: #ddd;
+}
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+}
+  
+  .dropdown:hover .dropbtn {
+	background-color: #200250;
+	transition: 0.5s;
+} */
+ 
+@media screen and (max-width: 500px) {
+	.header a {
+	 float: left;
+	  display: block;
+	  text-align: left;
+	}
+	
+	.header-right {
+	  float: right;
+	}
+	.p2{
+		width: 90%;
+		font-size: 18px;
+	}
+	
+
+  }
